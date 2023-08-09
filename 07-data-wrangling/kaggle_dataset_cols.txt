@@ -1,0 +1,28 @@
+hotel - (str) Tipo de hotel.
+is_cancelled - (binary) Variável binária indicando cancelamento da reserva (0 = não cancelada, 1 = cancelada) - variável resposta do case.
+lead_time - (int) Número de dias entre data da reserva e data de entrada no hotel (quando a reserva foi feita).
+arrival_date - (date) Data de entrada no hotel (para quando a reserva é).
+stays_in_weekend_nights - (int) Número de dias em finais de semana na reserva.
+stays_in_week_nights - (int) Número de dias de semana na reserva.
+adults - (int) Número de adultos.
+children - (int) Número de crianças.
+babies - (int) Número de bebes.
+meal - (str) Tipo de refeição inclusa na reserva.
+country - (str) País do cliente.
+market_segment - (str) Segmentação de marketing do cliente.
+distribution_channel - (str) Canal de vendas pelo qual a reserva foi feita.
+is_repeated_guest - (binary) O cliente já ficou hospedado no hotel? (0 = não, 1 = sim).
+previous_cancellations - (int) Quantas reservas o cliente já cancelou no passado.
+previous_bookings_not_canceled - (int) Quantas reservas o cliente já fez e não cancelou no passado.
+reserved_room_type - (str) Tipo de quarto desejado.
+assigned_room_type - (str) Tipo de quarto reservado.
+booking_changes - (str) Número de mudanças na reserva entre data de reserva e entrada/cancelamento.
+deposit_type - (str) Tipo de adiantamento feito no momento da reserva.
+agent - (str) ID do Agente que fez a reserva (NA caso a reserva não tenha sido feita por um agente).
+company - (str) ID da empresa que fez a reserva (NA caso a reserva não seja corporativa)
+days_in_waiting_list - (int) Quantos dias demorou a confirmação da reserva.
+customer_type - (str) Tipo de reserva.
+adr - (float) Average Daily Rate, preço médio de cada diária na reserva.
+required_car_parking_spaces - (int) Número de vagas em estacionamento requisitadas na reserva.
+total_of_special_requests - (int) Número de requisições especiais na reserva (cama dupla, andar, quarto com vista…)
+reservation_status_date - (date) Data da última atualização feita na reserva.
